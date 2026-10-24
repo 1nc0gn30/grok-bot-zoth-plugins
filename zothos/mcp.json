@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "zoth-relay": {
+      "url": "${ZOTH_RELAY_URL}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ZOTH_RELAY_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Zoth Studio">
+  <rect width="512" height="512" rx="96" fill="#08080B"/>
+  <g fill="none" stroke="#D4AF37" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M140 158 H372 L140 354 H372"/>
+    <path d="M168 400 H344" opacity="0.85"/>
+  </g>
+  <rect x="96" y="96" width="320" height="320" rx="48" fill="none" stroke="#D4AF37" stroke-width="8" opacity="0.35"/>
+</svg>

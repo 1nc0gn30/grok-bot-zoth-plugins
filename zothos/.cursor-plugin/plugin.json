@@ -1,0 +1,29 @@
+{
+  "name": "zothos",
+  "version": "1.0.0",
+  "description": "Connect Cursor or Grok Bot to a machine through zoth-relay MCP. Tools: status, list_dir, read_file, write_file, run_command.",
+  "author": {
+    "name": "NullAI Tech"
+  },
+  "homepage": "https://zothos.nullai.tech",
+  "repository": "https://github.com/1nc0gn30/grok-bot-zoth-plugins",
+  "license": "MIT",
+  "keywords": ["zothos", "zoth-relay", "mcp", "local-first", "nullai"],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "ZOTH_RELAY_URL": {
+        "type": "string",
+        "title": "zoth-relay base URL",
+        "description": "Base URL of your zoth-relay instance (no trailing slash). MCP is reached at {base}/mcp."
+      },
+      "ZOTH_RELAY_TOKEN": {
+        "type": "string",
+        "title": "zoth-relay bearer token",
+        "description": "Bearer token created on the relay host. Set under Plugins → Configure. Never commit this value."
+      }
+    },
+    "required": ["ZOTH_RELAY_URL", "ZOTH_RELAY_TOKEN"]
+  }
+}

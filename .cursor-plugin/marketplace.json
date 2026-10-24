@@ -1,0 +1,44 @@
+{
+  "name": "nullai-zoth",
+  "owner": {
+    "name": "NullAI Tech"
+  },
+  "metadata": {
+    "description": "ZOTHOS machine relay and Zoth Studio workflows for Cursor and Grok Bot Connect Apps",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "zothos",
+      "source": "zothos",
+      "description": "Reach a ZOTHOS or any machine through zoth-relay MCP (status, files, commands)",
+      "version": "1.0.0",
+      "author": {
+        "name": "NullAI Tech"
+      },
+      "homepage": "https://zothos.nullai.tech",
+      "repository": "https://github.com/1nc0gn30/grok-bot-zoth-plugins",
+      "license": "MIT",
+      "keywords": ["zothos", "zoth-relay", "mcp", "local-first", "nullai"],
+      "logo": "zothos/assets/logo.svg",
+      "category": "developer-tools",
+      "tags": ["mcp", "relay", "remote-machine"]
+    },
+    {
+      "name": "zoth-studio",
+      "source": "zoth-studio",
+      "description": "Sovereign developer studio workflows and the npx @nullaitech/zoth CLI",
+      "version": "1.0.0",
+      "author": {
+        "name": "NullAI Tech"
+      },
+      "homepage": "https://zoth.nullai.tech",
+      "repository": "https://github.com/1nc0gn30/grok-bot-zoth-plugins",
+      "license": "MIT",
+      "keywords": ["zoth-studio", "nullai", "local-first", "cli", "developer-studio"],
+      "logo": "zoth-studio/assets/logo.svg",
+      "category": "developer-tools",
+      "tags": ["studio", "cli", "local-first"]
+    }
+  ]
+}

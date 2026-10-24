@@ -1,0 +1,13 @@
+{
+  "name": "zoth-studio",
+  "version": "1.0.0",
+  "description": "Zoth Studio skills for local-first developer workflows and the npx @nullaitech/zoth CLI. No hosted MCP required.",
+  "author": {
+    "name": "NullAI Tech"
+  },
+  "homepage": "https://zoth.nullai.tech",
+  "repository": "https://github.com/1nc0gn30/grok-bot-zoth-plugins",
+  "license": "MIT",
+  "keywords": ["zoth-studio", "nullai", "local-first", "cli", "developer-studio"],
+  "logo": "assets/logo.svg"
+}

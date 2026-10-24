@@ -1,0 +1,9 @@
+.DS_Store
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+node_modules/
+.cursor/
+*.log
