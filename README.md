@@ -53,4 +53,4 @@ Do not imply partnership with xAI or Cursor.
 
 ## License
 
-MIT — NullAI Tech / Neal Frazier Tech
+MIT — NullAI (1nc0gn30)
